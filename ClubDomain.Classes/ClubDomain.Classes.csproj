@@ -53,11 +53,21 @@
     <Compile Include="ClubModels\ClubEvent.cs" />
     <Compile Include="ClubModels\EventAttendnace.cs" />
     <Compile Include="ClubModels\Members.cs" />
+    <Compile Include="Migrations\201907212329043_Club Context setup.cs" />
+    <Compile Include="Migrations\201907212329043_Club Context setup.Designer.cs">
+      <DependentUpon>201907212329043_Club Context setup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201907212329043_Club Context setup.resx">
+      <DependentUpon>201907212329043_Club Context setup.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
