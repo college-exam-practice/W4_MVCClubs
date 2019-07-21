@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.757
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "W4_MVCClubs", "W4_MVCClubs\W4_MVCClubs.csproj", "{456D4FBF-FCE4-45F7-B34A-7E080E3C2D15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClubDomain.Classes", "ClubDomain.Classes\ClubDomain.Classes.csproj", "{BEFC3096-6610-4B9F-A0E7-D215F1B57CDB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{456D4FBF-FCE4-45F7-B34A-7E080E3C2D15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{456D4FBF-FCE4-45F7-B34A-7E080E3C2D15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{456D4FBF-FCE4-45F7-B34A-7E080E3C2D15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{456D4FBF-FCE4-45F7-B34A-7E080E3C2D15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEFC3096-6610-4B9F-A0E7-D215F1B57CDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEFC3096-6610-4B9F-A0E7-D215F1B57CDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEFC3096-6610-4B9F-A0E7-D215F1B57CDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEFC3096-6610-4B9F-A0E7-D215F1B57CDB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A1C3B6DB-01BC-4C86-9947-A16B57EE761E}
+	EndGlobalSection
+EndGlobal
