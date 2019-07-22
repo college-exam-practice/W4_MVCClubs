@@ -172,6 +172,19 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201907220422074_Added application context.cs" />
+    <Compile Include="Migrations\201907220422074_Added application context.Designer.cs">
+      <DependentUpon>201907220422074_Added application context.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201907220537496_added second user.cs" />
+    <Compile Include="Migrations\201907220537496_added second user.Designer.cs">
+      <DependentUpon>201907220537496_added second user.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201907220540117_added paul user again.cs" />
+    <Compile Include="Migrations\201907220540117_added paul user again.Designer.cs">
+      <DependentUpon>201907220540117_added paul user again.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
@@ -292,6 +305,17 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201907220422074_Added application context.resx">
+      <DependentUpon>201907220422074_Added application context.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201907220537496_added second user.resx">
+      <DependentUpon>201907220537496_added second user.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201907220540117_added paul user again.resx">
+      <DependentUpon>201907220540117_added paul user again.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
