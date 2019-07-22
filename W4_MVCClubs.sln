@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "W4_MVCClubs", "W4_MVCClubs\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClubDomain.Classes", "ClubDomain.Classes\ClubDomain.Classes.csproj", "{BEFC3096-6610-4B9F-A0E7-D215F1B57CDB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week4.Console", "..\..\..\OneDrive - Institute of Technology Sligo\College\Exam Preparation\Semester 1\R.A.D.301\Week 4\csvHelperExampleForWeek4Lab-master\Week4.Console\Week4.Console.csproj", "{470097F9-43C8-4A3F-9F45-B68B5055BF31}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{BEFC3096-6610-4B9F-A0E7-D215F1B57CDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BEFC3096-6610-4B9F-A0E7-D215F1B57CDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BEFC3096-6610-4B9F-A0E7-D215F1B57CDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{470097F9-43C8-4A3F-9F45-B68B5055BF31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{470097F9-43C8-4A3F-9F45-B68B5055BF31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{470097F9-43C8-4A3F-9F45-B68B5055BF31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{470097F9-43C8-4A3F-9F45-B68B5055BF31}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
