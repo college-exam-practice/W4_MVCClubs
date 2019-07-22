@@ -57,6 +57,10 @@
     <Compile Include="Migrations\201907212329043_Club Context setup.Designer.cs">
       <DependentUpon>201907212329043_Club Context setup.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201907220200407_Club data added.cs" />
+    <Compile Include="Migrations\201907220200407_Club data added.Designer.cs">
+      <DependentUpon>201907220200407_Club data added.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -67,6 +71,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201907212329043_Club Context setup.resx">
       <DependentUpon>201907212329043_Club Context setup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201907220200407_Club data added.resx">
+      <DependentUpon>201907220200407_Club data added.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
