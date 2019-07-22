@@ -61,6 +61,18 @@
     <Compile Include="Migrations\201907220200407_Club data added.Designer.cs">
       <DependentUpon>201907220200407_Club data added.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201907220215584_second club added.cs" />
+    <Compile Include="Migrations\201907220215584_second club added.Designer.cs">
+      <DependentUpon>201907220215584_second club added.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201907220220345_seeded 3rd Club.cs" />
+    <Compile Include="Migrations\201907220220345_seeded 3rd Club.Designer.cs">
+      <DependentUpon>201907220220345_seeded 3rd Club.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201907220226045_added 1st Club.cs" />
+    <Compile Include="Migrations\201907220226045_added 1st Club.Designer.cs">
+      <DependentUpon>201907220226045_added 1st Club.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -74,6 +86,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201907220200407_Club data added.resx">
       <DependentUpon>201907220200407_Club data added.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201907220215584_second club added.resx">
+      <DependentUpon>201907220215584_second club added.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201907220220345_seeded 3rd Club.resx">
+      <DependentUpon>201907220220345_seeded 3rd Club.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201907220226045_added 1st Club.resx">
+      <DependentUpon>201907220226045_added 1st Club.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
