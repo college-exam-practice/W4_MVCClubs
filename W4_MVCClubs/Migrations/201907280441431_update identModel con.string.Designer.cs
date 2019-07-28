@@ -7,13 +7,13 @@ namespace W4_MVCClubs.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.2.0-61023")]
-    public sealed partial class addedseconduser : IMigrationMetadata
+    public sealed partial class updateidentModelconstring : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(addedseconduser));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(updateidentModelconstring));
         
         string IMigrationMetadata.Id
         {
-            get { return "201907220537496_added second user"; }
+            get { return "201907280441431_update identModel con.string"; }
         }
         
         string IMigrationMetadata.Source

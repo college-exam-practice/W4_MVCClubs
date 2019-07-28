@@ -1,4 +1,5 @@
-﻿using ClubDomain.Classes.ClubModels;
+﻿using ClubDomain.Classes;
+using ClubDomain.Classes.ClubModels;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
@@ -14,8 +15,8 @@ namespace Clubs.Model
         public DbSet<ClubEvent> ClubEvents { get; set; }
         public DbSet<Member> Members { get; set; }
         public DbSet<EventAttendnace> EventAttendees { get; set; }
-        public DbSet<EventAttendnace> Students { get; set; }
-        public DbSet<EventAttendnace> Courses { get; set; }
+        public DbSet<Student> Students { get; set; }
+        public DbSet<Course> Courses { get; set; }
 
         public ClubContext():base("ClubsConnection")
         {

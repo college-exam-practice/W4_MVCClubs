@@ -7,13 +7,13 @@ namespace W4_MVCClubs.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.2.0-61023")]
-    public sealed partial class addedpauluseragain : IMigrationMetadata
+    public sealed partial class addedusersandroles : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(addedpauluseragain));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(addedusersandroles));
         
         string IMigrationMetadata.Id
         {
-            get { return "201907220540117_added paul user again"; }
+            get { return "201907280506561_added users and roles"; }
         }
         
         string IMigrationMetadata.Source

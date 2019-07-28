@@ -3,7 +3,7 @@ namespace W4_MVCClubs.Migrations
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class Addedapplicationcontext : DbMigration
+    public partial class addedusersandroles : DbMigration
     {
         public override void Up()
         {
