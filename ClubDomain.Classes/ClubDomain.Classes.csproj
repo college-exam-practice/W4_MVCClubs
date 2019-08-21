@@ -78,6 +78,10 @@
     <Compile Include="Migrations\201907220250583_added attendees.Designer.cs">
       <DependentUpon>201907220250583_added attendees.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201908210445584_Added courses and students.cs" />
+    <Compile Include="Migrations\201908210445584_Added courses and students.Designer.cs">
+      <DependentUpon>201908210445584_Added courses and students.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ClubModels\Student.cs" />
@@ -104,6 +108,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201907220250583_added attendees.resx">
       <DependentUpon>201907220250583_added attendees.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201908210445584_Added courses and students.resx">
+      <DependentUpon>201908210445584_Added courses and students.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

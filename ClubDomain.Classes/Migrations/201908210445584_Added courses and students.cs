@@ -1,9 +1,9 @@
-namespace W4_MVCClubs.Migrations
+namespace ClubDomain.Classes.Migrations
 {
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class addedusersandroles : DbMigration
+    public partial class Addedcoursesandstudents : DbMigration
     {
         public override void Up()
         {

@@ -176,10 +176,6 @@
     <Compile Include="Migrations\201907280441431_update identModel con.string.Designer.cs">
       <DependentUpon>201907280441431_update identModel con.string.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201907280506561_added users and roles.cs" />
-    <Compile Include="Migrations\201907280506561_added users and roles.Designer.cs">
-      <DependentUpon>201907280506561_added users and roles.cs</DependentUpon>
-    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
@@ -305,9 +301,6 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201907280441431_update identModel con.string.resx">
       <DependentUpon>201907280441431_update identModel con.string.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201907280506561_added users and roles.resx">
-      <DependentUpon>201907280506561_added users and roles.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
